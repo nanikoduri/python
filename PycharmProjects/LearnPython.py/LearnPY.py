@@ -1,3 +1,8 @@
+# Addition of two numbers
+a = 10
+b = 20
+c = a + b
+print("The value 0f C is ", c)
 
 # Defining If
 number = 50
