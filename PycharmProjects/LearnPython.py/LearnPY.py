@@ -1,6 +1,6 @@
 
 # Defining If
-number = 5
+number = 50
 if number == 5:
     print("The value of number = 5")
 else:
@@ -53,4 +53,30 @@ for index in range(10):
     print("The value of X is {0}" .format(x))
 
 c = "Hi There!"
-print(c[3])
+print(c[2:4])
+
+# Exception Handling
+
+def divide(a,b):
+    try:
+        return a/b
+    except ZeroDivisionError:
+        return "Zero Division is Meaningless"
+print(divide(1,0))
+
+# Functions
+
+def minutes_to_hours(minutes):
+    hours = minutes / 60
+    return(hours)
+print(minutes_to_hours(60))
+
+def minutes_to_hours(minutes, seconds):
+    hours = minutes / 60 + seconds / 3600
+    return(hours)
+print(minutes_to_hours(60 , 100))
+
+
+
+
+
